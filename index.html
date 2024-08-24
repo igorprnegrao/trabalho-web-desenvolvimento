@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NegraoIPR.DEV</title>
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#Home" class="logo">Igor <span>Negrão</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Sobre mim</a>
+            <a href="#education">Educação</a>
+            <a href="#servicos">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, me chamo <span>Igor.</span></h1>
+            <h3 class="text-animation">Sou Desenvolvedor <span></span></h3>
+            <p>Assessor de comunição política e designer gráfico. atuamente estou cursando  Análise e Desenvolvimento de Sistemas(ADS) na Uninter, sou especialista em HTML, CSS, Javascript, node.js, Typescript, python, django, java e springboot, passeando em ambas as áreas de frontend e backend.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/igor-negr%C3%A3o-23019538/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/igorprnegrao" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/negraoipr/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.behance.net/igornegro" target="_blank"><i class='bx bxl-behance'></i></a>
+            </div> <!--social-icons-->
+            <div class="btn-group">
+                <a href="#" class="btn">Contratar</a>
+                <a href="#contact" class="btn">Contato</a>
+            </div> <!--btn-group-->
+            
+        </div> <!--home-content-->
+            <div class="home-img">
+                <img src="./img/me.jpeg" alt="">
+            </div> <!--home-content-->
+    </section> <!--home-->
+    <section class="education" id="education">
+        <h2 class="heading">Educação</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2025
+                    </div>
+                    <div class="timeline-content" id="time-grad-ads">
+                    <h3>Graduaçao em Análise e Desenvolvimento de Sistemas</h3>
+                        <p>No curso de Análise e Desenvolvimento de Sistemas da Uninter adquirimos conhecimentos sólidos em linguagem de programação, engenharia de software, segurança da informação, entre outros. Nós analistas de sistemas aprendemos a desenvolver aplicativos, sistemas web e mobile, além de dominar as mais recentes tecnologias e metodologias de desenvolvimento.</p>
+                    </div><!--timeline-content-->
+            </div> <!--timeline-item-->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        2022
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Especialização em Neuromarketing</h3>
+                        <p>Neuromarketing é uma junção de duas palavras: neurologia e marketing. Ao criar o conceito o cientista Ale Smidts tinha como objetivo compreender qual a influência neurológica que determinadas ações de marketing têm no comportamento do consumidor, possibilitando o entendimento e a criação de campanhas mais efetivas.</p>
+                    </div><!--timeline-content-->
+            </div> <!--timeline-item-->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div> 
+                    <div class="timeline-date">
+                        2013
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Mestrado em Neurociência e Biologia Celular</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus libero iste consequatur a veritatis facilis necessitatibus voluptatum distinctio assumenda!</p>
+                    </div><!--timeline-content-->
+            </div> <!--timeline-item-->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div> <!--timeline-dot-->
+                    <div class="timeline-date">
+                        2009
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Graduação em Licenciatura em Biologia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus libero iste consequatur a veritatis facilis necessitatibus voluptatum distinctio assumenda!</p>
+                    </div><!--timeline-content-->
+            </div> <!--timeline-item-->
+        </div><!--timeline-items-->
+    </section> <!--education-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Entre <span>Conato</span> </h2>
+        <form action="">
+            <div class="input-group">
+
+            </div>
+        </form>
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html>
