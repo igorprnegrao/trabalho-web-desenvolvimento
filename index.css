@@ -428,4 +428,11 @@ btn:hover {
     background-color: var(--bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: 0;
 }
+
+.contact form .btn {
+    margin-top: 2rem;
+}
+
