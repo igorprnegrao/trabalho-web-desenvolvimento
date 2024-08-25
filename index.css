@@ -396,6 +396,28 @@ btn:hover {
     width: 50px;
 }
 
+.services{
+    background-color: var(--bg-color);
+    color: #000;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+    color: #fff;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+
+
+
+
 .contact {
     background-color: var(--bg-color);
 }
